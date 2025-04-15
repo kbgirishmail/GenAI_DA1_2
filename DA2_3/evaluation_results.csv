@@ -1,0 +1,121 @@
+Question,Answer,Context,Latency,Faithfulness (LLM),Relevance (LLM)
+How do I set up a new account?,"To create an account, click on the 'Sign Up' button on the top right corner of our website and follow the instructions to complete the registration process.
+","To create an account, click on the 'Sign Up' button on the top right corner of our website and follow the instructions to complete the registration process.
+---
+To update your account information, log in to your account, navigate to the 'Account Settings' section, and make the necessary changes.
+---
+To update your account information, log in to your account, navigate to the 'Account Settings' section, and make the necessary changes.",1.243469954,Yes,Yes
+What forms of payment are accepted?,"We accept major credit cards, debit cards, and PayPal.
+","We accept major credit cards, debit cards, and PayPal as payment methods for online orders.
+---
+Yes, we take the security of your personal and payment details seriously. We use industry-standard encryption and follow strict security protocols to ensure your information is protected.
+---
+A receipt or proof of purchase is usually required for returns. Please refer to our return policy or contact our customer support team for assistance.",0.663859367,Yes,Yes
+Tell me the steps to track my order.,"Log into your account and navigate to the 'Order History' section to find your shipment's tracking information.
+","You can track your order by logging into your account and navigating to the 'Order History' section. There, you will find the tracking information for your shipment.
+---
+If you need to change your order, please contact our customer support team as soon as possible. We will do our best to accommodate your request if the order has not been processed yet.
+---
+If you need to change your order, please contact our customer support team as soon as possible. We will do our best to accommodate your request if the order has not been processed yet.",0.74432683,Yes,Yes
+What is your policy on returning items?,"Our return policy generally covers defective or damaged products upon arrival; damage due to improper use may not be eligible.  For products purchased in bundles or sets, the return policy may vary.  Returning items in their original packaging is preferred, but not required. Contact customer support for assistance with any return, especially those involving bundles/sets or missing original packaging.
+","If a product was purchased as part of a bundle or set, the return policy may vary. Please refer to the specific terms and conditions or contact our customer support team for further guidance.
+---
+Our return policy generally covers products that are defective or damaged upon arrival. Damage due to improper use may not be eligible for a return. Please contact our customer support team for assistance.
+---
+While returning a product in its original packaging is preferred, you can still initiate a return without it. Contact our customer support team for guidance in such cases.",1.109134912,Yes,Yes
+Is it possible to cancel an order I just placed?,"Yes, you can cancel your order if it has not been shipped yet, or if it has not been processed yet.  Contact customer support with your order details.
+","You can cancel your order if it has not been shipped yet. Please contact our customer support team with your order details, and we will assist you with the cancellation process.
+---
+If you need to change or cancel an item in your order, please contact our customer support team as soon as possible. We will assist you with the necessary steps.
+---
+If you need to change your order, please contact our customer support team as soon as possible. We will do our best to accommodate your request if the order has not been processed yet.",0.85986042,Yes,Yes
+Within how many days can I return a product for a full refund?,"You can return products within 30 days of purchase for a full refund.
+","Our return policy allows you to return products within 30 days of purchase for a full refund, provided they are in their original condition and packaging. Please refer to our Returns page for detailed instructions.
+---
+Yes, you can return a product purchased during a sale or with a discount. The refund will be processed based on the amount paid after the discount.
+---
+Yes, you can return a product purchased with a discount code. The refund will be processed based on the amount paid after the discount.",0.761517525,Yes,Yes
+What is the typical delivery time for standard shipping?,"Standard shipping usually takes 3-5 business days.
+","Shipping times vary depending on the destination and the shipping method chosen. Standard shipping usually takes 3-5 business days, while express shipping can take 1-2 business days.
+---
+Yes, we offer expedited shipping options for faster delivery. During the checkout process, you can select the desired expedited shipping method.
+---
+If a product you purchased goes on sale within 7 days of your purchase, we offer a one-time price adjustment. Please contact our customer support team with your order details to request the adjustment.",0.642433643,Yes,Yes
+To which countries do you offer international shipping?,"The provided text states that international shipping is offered to select countries, but it does not list those countries.  The available shipping destinations can be reviewed during checkout or by contacting customer support.
+","Yes, we offer international shipping to select countries. Please review the available shipping destinations during checkout or contact our customer support for assistance.
+---
+Yes, we offer international shipping to select countries. The availability and shipping costs will be calculated during the checkout process based on your location.
+---
+We accept major credit cards, debit cards, and PayPal as payment methods for online orders.",1.041101694,Yes,Yes
+What information do I need to provide to change my shipping address?,"The provided text does not specify what information is needed to change your shipping address, only that you should contact customer support as soon as possible if you need to change it.
+","If you need to change your shipping address, please contact our customer support team as soon as possible. We will do our best to update the address if the order has not been shipped yet.
+---
+If you need to change your order, please contact our customer support team as soon as possible. We will do our best to accommodate your request if the order has not been processed yet.
+---
+If you need to change your order, please contact our customer support team as soon as possible. We will do our best to accommodate your request if the order has not been processed yet.",0.919426441,Yes,Yes
+What are the two ways I can get in touch with customer support?,"You can contact customer support by phone at [phone number] or by email at [email address].
+","You can contact our customer support team by phone at [phone number] or by email at [email address]. Our team is available [working hours] to assist you with any inquiries or issues you may have.
+---
+Our business hours are [working hours]. During these hours, our customer support team is available to assist you with any inquiries or issues.
+---
+Our business hours are [working hours]. During these hours, our customer support team is available to assist you with any inquiries or issues.",0.759314775,Yes,Yes
+Can I get a full refund if I return an item after 35 days?,"No.  The provided text states that returns are allowed within 30 days of purchase for a full refund.
+","Our return policy allows you to return products within 30 days of purchase for a full refund, provided they are in their original condition and packaging. Please refer to our Returns page for detailed instructions.
+---
+Yes, you can return a product purchased during a sale or with a discount. The refund will be processed based on the amount paid after the discount.
+---
+Yes, you can return a product purchased with a discount code. The refund will be processed based on the amount paid after the discount.",0.782335997,Yes,Yes
+"If my package is lost, what is the first step I should take?","Contact our customer support team immediately.
+","If your package is lost or damaged during transit, please contact our customer support team immediately. We will initiate an investigation and take the necessary steps to resolve the issue.
+---
+While returning a product in its original packaging is preferred, you can still initiate a return without it. Contact our customer support team for guidance in such cases.
+---
+If your product was damaged during shipping, please contact our customer support team immediately. We will guide you through the return and replacement process.",0.694092274,Yes,Yes
+Is there a fee for your gift wrapping service?,"Yes, we offer gift wrapping services for an additional fee.
+","Yes, we offer gift wrapping services for an additional fee. During the checkout process, you can select the option to add gift wrapping to your order.
+---
+Yes, you can order a product as a gift and have it shipped directly to the recipient. During the checkout process, you can enter the recipient's shipping address.
+---
+Yes, you can add a gift message during the checkout process. There is usually a section where you can enter your personalized message.",0.666688442,Yes,Yes
+Will you match the price of a product I found cheaper on any website?,"We have a price matching policy for identical products found on a competitor's website.  Contact customer support with the product and competitor's offer details.
+","We have a price matching policy where we will match the price of an identical product found on a competitor's website. Please contact our customer support team with the details of the product and the competitor's offer.
+---
+Yes, we offer bulk or wholesale discounts for certain products. Please contact our customer support team or visit our Wholesale page for more information and to discuss your specific requirements.
+---
+If the price of a product drops within 7 days of your purchase, you may be eligible for a price adjustment. Please contact our customer support team with your order details.",0.850472927,Yes,Yes
+Can I place an order by calling your phone number?,"No, we do not accept orders over the phone.  Please place your order through our website.
+","Unfortunately, we do not accept orders over the phone. Please place your order through our website for a smooth and secure transaction.
+---
+If you need to change your order, please contact our customer support team as soon as possible. We will do our best to accommodate your request if the order has not been processed yet.
+---
+If you need to change your order, please contact our customer support team as soon as possible. We will do our best to accommodate your request if the order has not been processed yet.",0.698793173,Yes,Yes
+I received the wrong item. What should I do?,"Contact our customer support team immediately.  They will arrange for the correct item to be shipped and assist with returning the wrong item.
+","If you receive the wrong item in your order, please contact our customer support team immediately. We will arrange for the correct item to be shipped to you and assist with returning the wrong item.
+---
+If your product was damaged due to mishandling during shipping, please contact our customer support team immediately. We will assist you with the necessary steps for return and replacement.
+---
+If your product was damaged during shipping, please contact our customer support team immediately. We will guide you through the return and replacement process.",0.755199432,Yes,Yes
+Can I use two discount codes on a single purchase?,"Usually, only one promo code can be applied per order.
+","Usually, only one promo code can be applied per order. During the checkout process, enter the promo code in the designated field to apply the discount to your order.
+---
+Yes, you can return a product purchased with a discount code. The refund will be processed based on the amount paid after the discount.
+---
+If your discount code is not working, please double-check the terms and conditions associated with the code. If the issue persists, contact our customer support team for assistance.",0.640708685,Yes,Yes
+What happens if a product I bought last week is now on sale?,"If the price dropped within 7 days of your purchase, you may be eligible for a one-time price adjustment.  Contact customer support with your order details to request the adjustment.
+","If a product you purchased goes on sale within 7 days of your purchase, we offer a one-time price adjustment. Please contact our customer support team with your order details to request the adjustment.
+---
+If the price of a product drops within 7 days of your purchase, you may be eligible for a price adjustment. Please contact our customer support team with your order details.
+---
+If the price of a product drops within 7 days of your purchase, you may be eligible for a price adjustment. Please contact our customer support team with your order details.",0.867975235,Yes,Yes
+"If I don't create an account, can I still buy something?","Yes, you can place an order as a guest without creating an account.
+","Yes, you can place an order as a guest without creating an account. However, creating an account offers benefits such as order tracking and easier future purchases.
+---
+To create an account, click on the 'Sign Up' button on the top right corner of our website and follow the instructions to complete the registration process.
+---
+Yes, we have a loyalty program where you can earn points for every purchase. These points can be redeemed for discounts on future orders. Please visit our website to learn more and join the program.",0.75468421,Yes,Yes
+Do you offer discounts for large quantity orders?,"Yes, we offer bulk or wholesale discounts for certain products.  Contact customer support or visit our Wholesale page for more information.
+","Yes, we offer bulk or wholesale discounts for certain products. Please contact our customer support team or visit our Wholesale page for more information and to discuss your specific requirements.
+---
+We do not currently offer custom orders or personalized products. Please explore the available products on our website.
+---
+Yes, you can place an order with a mix of pre-order and in-stock items. However, please note that the entire order will be shipped once all items are available.",0.76697731,Yes,Yes

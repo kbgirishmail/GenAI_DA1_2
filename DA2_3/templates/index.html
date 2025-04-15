@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Chatbot</title>
+    <style>
+        body { font-family: sans-serif; max-width: 600px; margin: 40px auto; padding: 20px; border: 1px solid #eee; box-shadow: 0 2px 3px #ccc; }
+        #chatbox { height: 300px; border: 1px solid #ccc; overflow-y: scroll; padding: 10px; margin-bottom: 10px; background-color: #f9f9f9; }
+        #userInput { width: calc(100% - 70px); padding: 10px; margin-right: 5px; }
+        #sendButton { padding: 10px 15px; }
+        .message { margin-bottom: 10px; padding: 8px 12px; border-radius: 5px; }
+        .user { background-color: #e1f5fe; text-align: right; margin-left: 40px;}
+        .bot { background-color: #f0f4c3; text-align: left; margin-right: 40px;}
+        #loading { display: none; text-align: center; padding: 10px; color: #777; }
+    </style>
+</head>
+<body>
+    <h1>FAQ Assistant</h1>
+    <div id="chatbox">
+        <div class="message bot">Hello! How can I help you with our FAQs today?</div>
+        </div>
+    <div id="loading">Thinking...</div>
+    <div>
+        <input type="text" id="userInput" placeholder="Ask your question...">
+        <button id="sendButton">Send</button>
+    </div>
+
+    <script>
+        const chatbox = document.getElementById('chatbox');
+        const userInput = document.getElementById('userInput');
+        const sendButton = document.getElementById('sendButton');
+        const loadingIndicator = document.getElementById('loading');
+
+        function addMessage(text, sender) {
+            const messageDiv = document.createElement('div');
+            messageDiv.classList.add('message', sender); // sender is 'user' or 'bot'
+            messageDiv.textContent = text;
+            chatbox.appendChild(messageDiv);
+            chatbox.scrollTop = chatbox.scrollHeight; // Scroll to bottom
+        }
+
+        async function sendMessage() {
+            const query = userInput.value.trim();
+            if (query === '') return;
+
+            addMessage(query, 'user');
+            userInput.value = ''; // Clear input
+            sendButton.disabled = true; // Disable button
+            loadingIndicator.style.display = 'block'; // Show loading
+
+            try {
+                const response = await fetch('/ask', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ query: query }),
+                });
+
+                if (!response.ok) {
+                    // Try to get error message from backend response body
+                    let errorMsg = `Error: ${response.status} ${response.statusText}`;
+                    try {
+                        const errorData = await response.json();
+                        errorMsg = errorData.error || errorMsg;
+                    } catch (e) { /* Ignore if response body isn't JSON */ }
+                    addMessage(`Sorry, something went wrong. ${errorMsg}`, 'bot');
+                } else {
+                    const data = await response.json();
+                    addMessage(data.answer, 'bot');
+                }
+
+            } catch (error) {
+                console.error('Fetch error:', error);
+                addMessage('Sorry, I could not connect to the backend service.', 'bot');
+            } finally {
+                 sendButton.disabled = false; // Re-enable button
+                 loadingIndicator.style.display = 'none'; // Hide loading
+                 userInput.focus(); // Set focus back to input
+            }
+        }
+
+        sendButton.addEventListener('click', sendMessage);
+        userInput.addEventListener('keypress', function(event) {
+            // Send message if Enter key is pressed
+            if (event.key === 'Enter') {
+                sendMessage();
+            }
+        });
+
+    </script>
+</body>
+</html>
